@@ -1,4 +1,4 @@
 #  Studies
- Primeiro Repositório Versionado
+ **Primeiro Repositório Versionado**
 
-Repositorio criado para nada menos que ESTUDOS.
+*Repositorio criado para nada menos que ESTUDOS*
