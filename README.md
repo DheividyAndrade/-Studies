@@ -1,7 +1,7 @@
 #  Exercícios em Python
 ---
 
-* **Todos os Scripts acima, tem níveis de dificuldades.**
+* **Todos os Scripts acima, tem níveis de dificuldade.**
 
 * *Pratiquem, tentem reproduzir em casa. __Bom estudo__!*
 
