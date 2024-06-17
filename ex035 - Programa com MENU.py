@@ -13,10 +13,10 @@ while opçao != 5:
     opçao = int(input('>>>> Qual a sua opção? '))
     if opçao == 1:
         soma = n1 + n2
-        print('A soma de {} + {} é igual a {}'.format(n1, n2, soma))
+        print('A soma entre {} + {} é igual a {}'.format(n1, n2, soma))
     elif opçao == 2:
         soma2 = n1 * n2
-        print('{} * {} é igual a {}'.format(n1, n2, soma2))
+        print('{} x {} é igual a {}'.format(n1, n2, soma2))
     elif opçao == 3:
         if n1 > n2:
             maior = n1
@@ -33,4 +33,5 @@ while opçao != 5:
     else:
         print('Opção invalida! tente novamente. ')
     print('=-=' * 10)
+    sleep(2)
 print('fim do programa! volte sempre. ')
