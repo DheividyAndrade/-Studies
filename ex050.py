@@ -1,6 +1,8 @@
 # Crie um programa onde o usuário possa digitar vários valores numéricos e cadastre-os em uma lista. Caso o número já exista lá dentro, ele não será adicionado. No final, serão exibidos todos os valores únicos digitados, em ordem crescente.
 
 
+
+# Estrututa de repetição
 numeros = list()
 while True:
     n = int(input('Digite um valor: '))
@@ -9,9 +11,13 @@ while True:
         print('Valor Adicionado com SUCESSO! ')
     else:
         print('Numero Duplicado! Não vou adicionar... ')
+
+# Perguntando se quer continuar
     r = str(input('Quer continuar? [S/N] '))
     if r in 'Nn':
         break
 print('=-' * 30)
 numeros.sort()
 print(f'Você digitou os valores {numeros} ')
+
+#fim
