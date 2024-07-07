@@ -28,8 +28,14 @@ while True:
     if perg in 'Nn':
         break
 print('=-' * 30)
-print(f'os dados foram {princ} ')
-print(f'A quantidade de pessoas com maior peso foi {mai}KG ')
-print(f'A quantidade de pessoas com menor peso foi {men}KG ')
+print(f'Foram cadastradas {len(princ)} pessoas. ')
+print(f'A quantidade de pessoas com maior peso foi de {mai}KG ')
+for p in princ:
+    if p[1] == mai:
+        print(f'{p[0]}')
+print(f'A quantidade de pessoas com menor peso foi de {men}KG ')
+for p in princ:
+    if p[1] == men:
+        print(f'{p[0]}')   
 
 #FIM
